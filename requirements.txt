@@ -1,7 +1,2 @@
 pandas
-numpy
-matplotlib
-beautifulsoup4
-requests
-nltk
-scikit-learn
+matplotlib.pyplot

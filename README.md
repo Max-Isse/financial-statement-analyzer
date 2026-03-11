@@ -1,48 +1,32 @@
-# Financial News Sentiment Analysis
+# Financial Statement Analyzer
 
 ## Overview
 
-This project analyzes financial news headlines and applies natural language processing techniques to measure sentiment in financial reporting.
+This project analyzes company financial statements and calculates key financial metrics such as profit margins, debt ratios, and revenue growth.
 
-The goal is to demonstrate how text data can be used to assess market sentiment and identify potential trends in financial news.
+The objective is to demonstrate financial analysis using Python.
 
-## Tools Used
+## Metrics Calculated
+
+Profit Margin  
+Debt Ratio  
+Revenue Growth  
+
+## Tools
 
 Python  
 Pandas  
-NLTK  
-BeautifulSoup  
 Matplotlib  
 
-## Project Workflow
+## Workflow
 
-1. Collect financial news headlines
-2. Clean and structure the text dataset
-3. Apply sentiment analysis using NLP
-4. Calculate sentiment scores
-5. Visualize sentiment distribution
+1. Load financial statement data
+2. Calculate financial ratios
+3. Analyze profitability and leverage
+4. Visualize financial trends
 
-## Key Findings
+## Key Insights
 
-The analysis provides insight into the tone of financial news coverage and allows identification of:
-
-- Positive market sentiment
-- Negative economic outlook signals
-- Neutral reporting patterns
-
-## Repository Structure
-
-data – raw and processed datasets  
-scripts – data collection and sentiment analysis scripts  
-notebooks – exploratory analysis  
-visuals – generated charts  
-
-## Future Improvements
-
-- Add transformer-based sentiment models (FinBERT)
-- Correlate sentiment with stock market performance
-- Build automated financial news dashboards
-
-## Author
-
-Mohamed Isse
+- Profit margins increased steadily from 2019–2022
+- Debt levels remained relatively stable
+- Revenue growth accelerated after 2020
