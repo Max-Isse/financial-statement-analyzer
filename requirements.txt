@@ -1,2 +1,7 @@
 pandas
-matplotlib.pyplot
+numpy
+matplotlib
+beautifulsoup4
+requests
+nltk
+scikit-learn
